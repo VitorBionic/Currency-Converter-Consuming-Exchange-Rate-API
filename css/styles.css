@@ -1,0 +1,50 @@
+/* General */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+body {
+    background: rgb(57, 56, 56);
+}
+
+body .container {
+    margin: 0 auto;
+    min-width: 400px;
+    width: 50%;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+body main {
+    background: #ffffff;
+}
+
+body main h1 {
+    text-align: center;
+}
+
+body main ul {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}

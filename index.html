@@ -17,13 +17,40 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
     <link rel="icon" type="img/png" href="assets/img/favicon.png">
-    <title>Currency Converter</title>
+    <title>Conversor de Moeda</title>
 </head>
 <body>
     <div class="wrapper">
         <main class="container">
-            <h1>Currency Converter</h1>
-            
+            <div id="icon">
+                <i class="fa-solid fa-coins"></i>
+            </div>
+            <h1>Conversor de Moeda</h1>
+            <form>
+                <ul>
+                    <li>
+                        <label for="inCurrency">Moeda de Entrada:</label>
+                        <br>
+                        <input type="text" id="inCurrency" required>
+                    </li>
+                    <li>
+                        <label for="inValue">Valor:</label>
+                        <br>
+                        <input type="number" id="inValue" placeholder="Insira o montante" step="0.01" required>
+                    </li>
+                    <li>
+                        <label for="outCurrency">Moeda de Saída:</label>
+                        <br>
+                        <input type="text" id="outCurrency" required>
+                    </li>
+                    <li id="submit">
+                        <input type="submit" value="Converter">
+                    </li>
+                </ul>
+            </form>
+            <div id="response">
+                <h2>Valor tal</h2>
+            </div>
         </main>
     </div>
 
